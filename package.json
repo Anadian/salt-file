@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Creates, stores and retrieves salt files for cryptographic modules.",
   "main": "source/main.js",
-  "dependencies": {},
+  "dependencies": {
+    "make-dir": "*",
+    "application-log-winston-interface": ">=1.0.2",
+    "env-paths": "*"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "./source/main.js"
