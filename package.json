@@ -1,0 +1,36 @@
+{
+  "name": "salt-file",
+  "version": "1.0.0",
+  "description": "Creates, stores and retrieves salt files for cryptographic modules.",
+  "main": "source/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "./source/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anadian/salt-file.git"
+  },
+  "keywords": [
+    "cryptography",
+    "encryption",
+    "crypto",
+    "salt",
+    "passwords",
+    "keys",
+    "derivation",
+    "file",
+    "store",
+    "libre",
+    "open",
+    "free",
+    "mit"
+  ],
+  "author": "Anadian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anadian/salt-file/issues"
+  },
+  "homepage": "https://github.com/Anadian/salt-file#readme"
+}
