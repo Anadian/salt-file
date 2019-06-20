@@ -1,6 +1,6 @@
 {
   "name": "salt-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates, stores and retrieves salt files for cryptographic modules.",
   "main": "source/main.js",
   "dependencies": {

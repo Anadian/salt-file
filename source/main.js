@@ -158,7 +158,7 @@ function SaltFile_Load( filepath ){
 	//Parametre checks
 	if( filepath == null ){
 		try{
-			filepath = Path.join( OperatingSystem.homedir(), '.ssh', 'enc-notes-salt' );
+			filepath = Path.join( OperatingSystem.homedir(), '.ssh', 'salt' );
 		} catch(error){
 			_return = [-4, 'Path.join threw: '+error];
 		}
